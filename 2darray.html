@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d array</title>
+</head>
+<body>
+    <script>
+        var array1 = [["sandeep",21,"dominar400"],
+                     ["gokul",21,"duke390"], 
+                     ["athul",24,"duke390"],
+                     ["amal",20,"gt650"]];
+        
+        document.write(array1);
+        document.write("<br>");
+        for(var i=0;i<array1.length-1;i++){
+            for(var j=0;j<array1.length-1;j++){
+                document.write(array1[i][j]+"      ");
+            }
+            document.write("<br>");
+        }
+
+        document.write(array1[0][0]);
+    </script>
+</body>
+</html>
